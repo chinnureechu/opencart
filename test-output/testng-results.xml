@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-02T12:55:03 IST" name="Suite" finished-at="2024-03-02T12:55:24 IST" duration-ms="21286">
+    <groups>
+      <group name="sanity">
+        <method signature="Tc_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.Tc_001_AccountRegistration@52bf72b5]" name="test_account_registration" class="testCases.Tc_001_AccountRegistration"/>
+        <method signature="Tc_001_AccountRegistration.test_account_registration()[pri:0, instance:testCases.Tc_001_AccountRegistration@293a5bf6]" name="test_account_registration" class="testCases.Tc_001_AccountRegistration"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-03-02T12:55:03 IST" name="firefoxTest" finished-at="2024-03-02T12:55:24 IST" duration-ms="21271">
+      <class name="testCases.Tc_001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Tc_001_AccountRegistration@293a5bf6]" started-at="2024-03-02T12:55:03 IST" name="setup" finished-at="2024-03-02T12:55:18 IST" duration-ms="15427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_registration()[pri:0, instance:testCases.Tc_001_AccountRegistration@293a5bf6]" started-at="2024-03-02T12:55:18 IST" name="test_account_registration" finished-at="2024-03-02T12:55:22 IST" duration-ms="3589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Tc_001_AccountRegistration@293a5bf6]" started-at="2024-03-02T12:55:22 IST" name="teardown" finished-at="2024-03-02T12:55:24 IST" duration-ms="2205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Tc_001_AccountRegistration -->
+    </test> <!-- firefoxTest -->
+    <test started-at="2024-03-02T12:55:03 IST" name="chromeTest" finished-at="2024-03-02T12:55:24 IST" duration-ms="21286">
+      <class name="testCases.Tc_001_AccountRegistration">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.Tc_001_AccountRegistration@52bf72b5]" started-at="2024-03-02T12:55:03 IST" name="setup" finished-at="2024-03-02T12:55:11 IST" duration-ms="8600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_account_registration()[pri:0, instance:testCases.Tc_001_AccountRegistration@52bf72b5]" started-at="2024-03-02T12:55:12 IST" name="test_account_registration" finished-at="2024-03-02T12:55:22 IST" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.Tc_001_AccountRegistration@52bf72b5]" started-at="2024-03-02T12:55:22 IST" name="teardown" finished-at="2024-03-02T12:55:24 IST" duration-ms="2346" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6a1f45d8-df84-4e12-a697-a22665f6c6c8, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:42608, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10132, moz:profile: C:\Users\srivi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:42608/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a1f45d8-df84-4e12-a697-a22665f6c6c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6a1f45d8-df84-4e12-a697-a22665f6c6c8, quit {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 123.0, moz:accessibilityChecks: false, moz:buildID: 20240213221259, moz:debuggerAddress: 127.0.0.1:42608, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10132, moz:profile: C:\Users\srivi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:42608/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a1f45d8-df84-4e12-a697-a22665f6c6c8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.Tc_001_AccountRegistration -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
